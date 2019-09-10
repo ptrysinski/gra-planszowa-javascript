@@ -2,7 +2,47 @@
     font-family: Impact, Charcoal, sans-serif
 }
 
+.container_board{
+    margin: auto;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: center;
+}
+
+.field{
+    border: black solid 1px;
+    width: 150px;
+    height: 150px;
+    margin: 15px 5px;
+    font-size: 30px;
+}
+
+.field p{
+    margin: 0 auto;
+    text-align: center;
+}
+.special_text{
+    font-size: 20px;
+}
+
+#start{
+    background-color: greenyellow;
+}
+#field-12{
+    background-color: red;
+}
+#field-19{
+    background-color: yellow;
+}
+#meta{
+    background-color: greenyellow;
+}
+
 .container{
+    margin-top: 20px;
     width: 100%;
     display: flex;
     flex-direction: column; 
@@ -32,9 +72,16 @@
     }
 
 #dice_display{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 #result_display{
-    font-size: 30px;
+    font-size: 40px;
+}
+
+.pawn{
+    display: block;
+    height: 100px;;
+    margin-left: auto;
+    margin-right: auto;
 }
