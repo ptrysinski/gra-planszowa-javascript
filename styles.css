@@ -1,5 +1,9 @@
 *{
-    font-family: Impact, Charcoal, sans-serif
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+body{
+    background-color: #808080;
 }
 
 .container_board{
@@ -13,33 +17,35 @@
 }
 
 .field{
-    border: black solid 1px;
+    background-color: #DCDCDC;
     border-radius: 5px;
     width: 150px;
     height: 150px;
     margin: 15px 5px;
     font-size: 30px;
+    padding: 5px;
 }
 
 .field p{
     margin: 0 auto;
     text-align: center;
 }
+
 .special_text{
     font-size: 20px;
 }
 
 #start{
-    background-color: greenyellow;
+    background-color: #29a329;
 }
 #field-12{
-    background-color: red;
+    background-color: #ed3330;
 }
 #field-19{
-    background-color: yellow;
+    background-color: #e6b800;
 }
 #meta{
-    background-color: greenyellow;
+    background-color: #29a329;
 }
 
 .container{
